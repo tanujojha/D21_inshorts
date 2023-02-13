@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Dongle:wght@300&family=Julee&family=Rubik:wght@300&display=swap');
+
+
+/* nav */
+.nav{
+    background: rgb(83,83,83);
+    background: radial-gradient(circle, rgba(83,83,83,1) 0%, rgba(11,11,11,1) 100%); 
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 40px;
+}
+
+
+.logo{
+    font-size: 2em;
+    font-family: 'Julee', cursive;
+    color: white;
+}
+
+.searchdiv{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 40px;
+    gap: 10px;
+    
+}
+
+
+.btn{
+    width: 8em;
+    background-color: transparent;
+}
+
+
+/* main section */
+.main{
+    padding: 30px;
+        
+}
+
+
+/* card  */
+.cardmain{
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   box-shadow: 5px 5px 15px gray;
+}
+
+
+/* card image */
+.cardimgdiv{
+    height: 300px;
+    padding: 5px 0;
+}
+
+.cardimg{
+    width: 400px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+/* card content */
+.cardbody{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.title{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #44444d ;
+}
+
+.content{
+    font-family: sans-serif;
+    color: #44444d ;
+    font-weight: 300;
+}
+
+.readlink{
+    text-decoration: none;
+    color: rgb(56, 68, 50);
+    font-weight: 100;
+}
+
+.readlink:hover{
+    color: green;
+    font-weight: bold;
+}
+
+
+
